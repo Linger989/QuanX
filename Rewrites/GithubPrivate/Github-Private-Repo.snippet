@@ -1,0 +1,9 @@
+#!name = Github引用私有仓库文件
+#!desc =
+#!openUrl = 
+
+#[rewrite_local]
+^https?:\/\/(raw|gist)\.githubusercontent.com\/Linger989 url script-request-header Github-Private-Repo.js
+
+#[mitm]
+hostname = raw.githubusercontent.com, gist.githubusercontent.com
