@@ -3,7 +3,6 @@
 #!openUrl = 
 
 #[rewrite_local]
-^https?:\/\/(raw|gist)\.githubusercontent.com\/Linger989 url script-request-header Github-Private-Repo.js
-
+^https?:\/\/(raw|gist)\.githubusercontent.com\/Linger989 url script-request-header https://github.com/Linger989/QuanX/blob/master/Rewrites/GithubPrivate/github-private-repo.js
 #[mitm]
 hostname = raw.githubusercontent.com, gist.githubusercontent.com
