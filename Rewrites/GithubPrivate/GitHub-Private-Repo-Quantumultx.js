@@ -1,4 +1,4 @@
-**
+/*
 允许引用Github私有仓库/gist中的订阅分流，重写，脚本等配置文件。❗️仅Loon & Surge可用
 @author: Peng-YM
 🛎[配置说明]
