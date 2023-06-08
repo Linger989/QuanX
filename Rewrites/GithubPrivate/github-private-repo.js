@@ -21,6 +21,10 @@ let config = {
 
 // load user prefs from box
 const boxConfig = $persistentStore.read("github_private_repo");
+//Quantumultxconst 
+/*
+const boxConfig = $prefs.valueForKey("github_private_repo");
+*/
 if (boxConfig) {
   config = JSON.parse(boxConfig);
 }
