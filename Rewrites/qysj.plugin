@@ -6,7 +6,7 @@
 
 [Script]
 
-http-response ^http[s]?:\/\/app\.thwlqy\.com\/login\/login\/veifys\.html script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/qysj.js, requires-body=true, timeout=10, tag=qysj
+http-response ^http[s]?:\/\/app\.thwlqy\.com\/login\/login\/veifys\.html script-path=https://raw.githubusercontent.com/Linger989/QuanX/master/Rewrites/qysj.js, requires-body=true, timeout=10, tag=qysj
 
 [MITM]
 
