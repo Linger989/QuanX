@@ -21,8 +21,8 @@
 [Script]
 
 http-response ^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ script-path=https://raw.githubusercontent.comLinger989/QuanX/blob/master/Rewrites/MGTV.js, requires-body=true, timeout=10, tag=MGTV
-#芒果VIP https://github.com/Linger989/QuanX/blob/master/Rewrites/MGTV.js
-http-request ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js, requires-body=false, timeout=10, tag=MGTK
+#芒果VIP
+http-request ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ script-path=https://raw.githubusercontent.comLinger989/QuanX/blob/master/Rewrites/MGTK.js, requires-body=false, timeout=10, tag=MGTK
 
 [MITM]
 
