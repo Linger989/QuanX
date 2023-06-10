@@ -7,7 +7,7 @@
 [Script]
 
 #酷我解锁会员
-http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* script-path=https://gitlab.com/ioshkj/quantumultx/-/raw/main/vipjs/kwsvip.js, requires-body=true, timeout=10, tag=kwsvip
+http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* script-path=https://raw.githubusercontent.com/Linger989/QuanX/master/Rewrites/kwsvip.js, requires-body=true, timeout=10, tag=kwsvip
 
 [MITM]
 
