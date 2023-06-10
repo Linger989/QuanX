@@ -1,0 +1,13 @@
+#!name=Emby Premiere
+#!desc=
+#!homepage=
+#!author=
+#!icon=
+
+[Script]
+
+http-request ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) script-path=https://raw.githubusercontent.com/zlking02/Emby/main/Script/embycrack.js, requires-body=false, timeout=10, tag=embycrack
+
+[MITM]
+
+hostname = mb3admin.com
